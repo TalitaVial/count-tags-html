@@ -30,3 +30,7 @@ O programa receber através de um input uma ou mais URLs, informada pelo usuári
  - Json-server
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) e for details.
+
+## Dev
+| [<img src="https://avatars.githubusercontent.com/u/84686692?s=400&u=0b65f703f6c3e4ba76839491f332402c331d99c7&v=4" width=115><br><sub>Talita Vial</sub>](https://github.com/TalitaVial)
+| :---: | 
