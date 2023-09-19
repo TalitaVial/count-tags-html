@@ -1,0 +1,129 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background: var(--body-color);
+    height:100%;
+}
+
+.containerHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4.5rem;
+    border-bottom: 1px solid var(--color-line);
+   
+}
+
+.title{
+    color: var(--text-color);
+    font-family: var(--title-font);
+    font-size: var(--title-font-size)
+}
+
+.containerForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 100%;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+
+}
+
+.formLabel{
+    font-size: 1.3rem;
+    font-family: var(--title-font);
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.formInput{
+    width: 100%;
+    height: 2rem;
+    border: 1px solid var(--base-color-alt);
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    font-size: var(--subtitle-font-size);
+    font-family: var(--body-font);
+    padding: .5rem;
+}
+
+.formButton{
+    width: 25%;
+    height: 2rem;
+    border: none;
+    border-radius: .5rem;
+    background: var(--base-color);
+    font-family: var(--body-font);
+    font-size: var(--subtitle-font-size);
+    color: var(--text-color-ligth);
+    text-transform: uppercase;
+}
+
+.textHtml{
+    color: var(--base-color)
+}
+
+.containerTable{
+    content: '';
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.titleContainerTable{
+    display: flex;
+    width: 50%;
+    color: var(--text-color);
+    font-family: var(--title-font);
+    font-size: var(--subtitle-font-size);
+
+}
+
+.welcomeAnalyze{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    height: 45vh;
+}
+
+.welcomeAnalyze h1 {
+    text-align: justify;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 4.5rem;
+    border-top: 1px solid var(--color-line);
+    bottom: 0;
+    left: 0;
+}
+
+.footer a {
+    font-family: var(--title-font);
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--base-color)
+}
+
+
