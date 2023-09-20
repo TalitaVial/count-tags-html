@@ -1,0 +1,40 @@
+.containerTable {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.titleTable {
+  color: var(--text-color);
+  font-size: var(--subtitle-font-size);
+  font-size: var(--title-font-size);
+}
+
+.urlInfo{
+  color: var(--text-color);
+  font-size: var(--subtitle-font-size);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem
+
+}
+
+.tableTags {
+  border: 1px solid var(--text-color);
+  border-collapse: collapse;
+ 
+}
+
+.tableTags th, td{
+    padding: .5rem;
+    border: 1px solid var(--text-color);
+    font-family: var(--body-font);
+    text-transform: uppercase;
+    font-size: var(--subtitle-font-size);
+    color: var(--text-color)
+}
