@@ -54,11 +54,12 @@ function HtmlAnalyzer() {
           </label>
           <input
             className={styles.formInput}
+            placeholder="Digite a URL"
             id="urlInput"
             name="urls"
             type="text"
             required
-          ></input>
+          />
           <button className={styles.formButton} type="submit">
             Analisar
           </button>
@@ -84,8 +85,8 @@ function HtmlAnalyzer() {
         <h1 className={styles.title}>&copy;2023 Talita Vial</h1>
         <h1 className={styles.title}>
           &lt;
-          <span className={styles.textHtml}>
-            <a href="https://github.com/TalitaVial" target="_blank">
+          <span  className={styles.textHtml}>
+            <a role="link" href="https://github.com/TalitaVial" target="_blank">
               GitHub
             </a>
           </span>
