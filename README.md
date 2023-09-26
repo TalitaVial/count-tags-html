@@ -6,17 +6,19 @@ O programa receber através de um input uma ou mais URLs, informada pelo usuári
 
 ### Links de sugestão:
     Você pode começar a usar a aplicação testando para descobrir quais tags compõe essa página:
+    
     (https://talitavial.github.io/Projeto-Finances/)
-### Use: `npm i`
+###  Para instalar as dependências do projeto em seu ambiente:
 
-    Para instalar as dependências do projeto em seu ambiente.
+ `npm i`
+   
+### Para rodar o projeto em seu ambiente: 
 
-### Use : `npm start`
+`npm start`
+    
+### Para rodar o servidor Json-server:
 
-    Para rodar o projeto em seu ambiente. 
-### Use: `npm run server`
-
-    Para rodar o servidor Json-server.
+ `npm run server`
 
 ## Features:
 
